@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextAppearance.Weather.Title" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/weather_title_size</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Weather.Description" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/weather_description_size</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Weather.Temperature" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/weather_temperature_size</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Forecast.Title" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/weather_title_size</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Forecast.Description" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/weather_description_size</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Forecast.Temperature" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/weather_temperature_size</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+</resources>
