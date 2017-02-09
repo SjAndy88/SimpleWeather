@@ -55,8 +55,6 @@ public abstract class BaseFragment extends Fragment {
 
     @SuppressWarnings("TryWithIdenticalCatches")
     private void clearChildFragmentManager() {
-        List<Fragment> childFragments = getChildFragmentManager().getFragments();
-        if (childFragments != null && childFragments.isEmpty())
         try {
             Field childFragmentManager = Fragment.class.getDeclaredField("mChildFragmentManager");
             childFragmentManager.setAccessible(true);
